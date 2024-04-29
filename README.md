@@ -8,6 +8,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ```
 
+## Usage
+### Converters
+This namespace contains a series of classes for conversion
+
+#### NumberToEnglishWord
+```bash
+string numberToWord="1234".NumberToWord();
+```
+
 
 
 
