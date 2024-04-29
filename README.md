@@ -13,6 +13,8 @@ pip install foobar
 This namespace contains a series of classes for conversion
 
 #### NumberToEnglishWord
+namespace Mgh.Common.NumberToPersianWord
+
 ```bash
 string numberToWord=ConvertToEnglish.NumberToWord("1234");
 ```
@@ -29,9 +31,30 @@ string numberToWord=ConvertToEnglish.NumberToWord("1234",ConvertType.British);
 Default is American
 
 
+
+
+
 #### NumberToPersianWord
+namespace Mgh.Common.NumberToPersianWord
 ```bash
 string numberToWord=ConvertToPersian.NumberToWord("1234");
+```
+
+
+### Extension Methods
+#### DateTimeExtensions
+```Methods
+DateTime sendDate=DateTime.Now;
+
+# DateTime to JalaliDate
+string toJalaliDate = sendDate.ToJalaliDate()
+
+# DateTime to JalaliDate with Time
+string toJalaliDateTime = sendDate.ToJalaliDateTime()
+
+# DateTime ToJalaliDate with Time and Milisecond
+string toJalaliDateTimeMilisecond = sendDate.ToJalaliDateTimeMilisecond()
+
 ```
 
 
