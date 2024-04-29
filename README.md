@@ -59,6 +59,25 @@ string toJalaliDateTimeMilisecond = sendDate.ToJalaliDateTimeMilisecond();
 int dateToInt32= sendDate.ToInt32();
 
 ```
+#### EnumExtensions
+```Methods
+public enum Test
+{
+  [Description("First Item")]
+  First,
+  [Description("Two Item")]
+  Two
+}
+
+//-----------------------------
+var item=Test.First;
+return item.GetDescription();
+
+//----------------------------
+
+Output:
+First Item
+```
 
 
 
