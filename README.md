@@ -15,8 +15,14 @@ This namespace contains a series of classes for conversion
 #### NumberToEnglishWord
 ```bash
 string numberToWord=ConvertToEnglish.NumberToWord("1234");
+```
+```bash
 string numberToWord=ConvertToEnglish.NumberToWord("1,234");
+```
+```bash
 string numberToWord=ConvertToEnglish.NumberToWord("1234",ConvertType.American);
+```
+```bash
 string numberToWord=ConvertToEnglish.NumberToWord("1234",ConvertType.British);
 ```
 
