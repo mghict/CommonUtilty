@@ -46,14 +46,17 @@ string numberToWord=ConvertToPersian.NumberToWord("1234");
 ```Methods
 DateTime sendDate=DateTime.Now;
 
-# DateTime to JalaliDate
-string toJalaliDate = sendDate.ToJalaliDate()
+// DateTime to JalaliDate
+string toJalaliDate = sendDate.ToJalaliDate();
 
-# DateTime to JalaliDate with Time
-string toJalaliDateTime = sendDate.ToJalaliDateTime()
+// DateTime to JalaliDate with Time
+string toJalaliDateTime = sendDate.ToJalaliDateTime();
 
-# DateTime ToJalaliDate with Time and Milisecond
-string toJalaliDateTimeMilisecond = sendDate.ToJalaliDateTimeMilisecond()
+// DateTime To JalaliDate with Time and Milisecond
+string toJalaliDateTimeMilisecond = sendDate.ToJalaliDateTimeMilisecond();
+
+// DateTime to Int32
+int dateToInt32= sendDate.ToInt32();
 
 ```
 
